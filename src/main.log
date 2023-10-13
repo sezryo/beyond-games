@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/nixos.org)  (format=lualatex 1980.1.1)  13 OCT 2023 01:43
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/nixos.org)  (format=lualatex 1980.1.1)  13 OCT 2023 02:54
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -631,33 +631,33 @@ File: l3backend-luatex.def 2023-01-16 L3 backend support: PDF output (LuaTeX)
 ) (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 5
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
 .
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -720,7 +720,7 @@ exmfdist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 5.
+Package hyperref Info: Link coloring OFF on input line 6.
  (./main.out) (./main.out)
 \@outlinefile=\write3
 
@@ -729,7 +729,8 @@ Package hyperref Info: Link coloring OFF on input line 5.
 [1
 
 {/nix/store/q071lii7zvqc6qwi0chi2j0zfzbmx3qb-texlive-combined-full-2022-final/sh
-are/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./conventions.tex
+are/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./sections/introduction.tex) [2] (./sections/conventions.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -815,7 +816,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-[2]
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
@@ -840,12 +841,13 @@ Overfull \hbox (43.08743pt too wide) detected at line 79
 []
  []
 
-[3]
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-) [4] (./prerequisites.tex) [5] (./uncategorised.tex
+) [5] (./sections/prerequisites.tex) [6] (./sections/measure.tex) [7]
+(./sections/uncategorised.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -855,21 +857,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [6] (./main.aux)
+) [8] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1BD4B9751AAE1CF6D7C7F39F7973E276;872.
+(rerunfilecheck)             Checksum: 780DADCF535F31313E25E6891426A724;1054.
 )
 
 Here is how much of LuaTeX's memory you used:
- 12825 strings out of 478290
+ 12859 strings out of 478290
  100000,1977958 words of node,token memory allocated
  543 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 13 attribute, 57 glue_spec
 , 8 attribute_list, 1 write nodes
    avail lists: 2:1473,3:155,4:13,5:486,6:36,7:4723,8:43,9:1084,10:7,11:274
- 32412 multiletter control sequences out of 65536+600000
+ 32418 multiletter control sequences out of 65536+600000
  67 fonts using 4752359 bytes
- 87i,18n,85p,530b,356s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,18n,85p,539b,356s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-te
 xmfdist/fonts/enc/dvips/lm/lm-rm.enc}</nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcb
 k-texlive-lm-2.005/fonts/opentype/public/lm/lmroman10-bold.otf>{/nix/store/wrdw5
@@ -904,10 +906,10 @@ s/type1/public/amsfonts/symbols/msam10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqd
 cx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/old-arrows
 /oasy10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2
 022-final-texmfdist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on main.pdf (6 pages, 157804 bytes).
+Output written on main.pdf (8 pages, 158593 bytes).
 
-PDF statistics: 187 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 131072)
- 65 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 203 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 131072)
+ 81 words of extra memory for PDF output out of 10000 (max. 100000000)
 
