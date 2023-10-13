@@ -1,0 +1,43 @@
+\ProvidesPackage{util}
+
+\ProcessOptions\relax
+
+\usepackage[UKenglish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper]{geometry}
+
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{dsfont}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{bbold}
+\usepackage{lmodern}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{old-arrows}
+\usepackage{extarrows}
+\usepackage{hyperref}
+
+\setlength{\parindent}{0pt}
+
+\DeclareMathSymbol{\ord}{\mathord}{AMSa}{"39}
+\newcommand{\cc}{\mathscr{C}}
+\newcommand{\cat}[2]{\mathbf{#1\ord #2}}
+\newcommand{\func}{\xrightarrow{\mathbf{1\ord Set}}}
+\newcommand{\morp}[2][1]{\xrightarrow{\mathbf{#1\ord #2}}}
+\newcommand{\iso}[2][1]{\xlongequal{\mathbf{#1\ord #2}}}
+\newcommand{\corres}{\quad \Longrightarrow \quad}
+
+\DeclareMathOperator{\oAut}{Aut}
+\DeclareMathOperator{\oIm}{Im}
+\DeclareMathOperator{\odim}{dim}
+
+\makeatletter
+\newcommand{\xtwoheadrightarrow}[2][]{%
+  \ext@arrow 0099\xtwoheadfill@{#1}{#2}}%
+\newcommand{\xtwoheadfill@}{%
+  \arrowfill@\relbar\relbar{\mathrel{\vphantom{\rightarrow}\smash{\twoheadrightarrow}}}}
+\makeatother
+
+% \RequirePackage{unicode-math}
