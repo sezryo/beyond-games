@@ -18,16 +18,29 @@
 \usepackage{old-arrows}
 \usepackage{extarrows}
 \usepackage{hyperref}
+\usepackage{epigraph}
+\usepackage{titlesec}
 
 \setlength{\parindent}{0pt}
+
+\titleformat{\section}
+  {\normalfont\Huge\bfseries}
+  {\thesection}{20pt}{\Huge}
+\titleformat{\subsection}
+  {\normalfont\LARGE\bfseries}
+  {\thesubsection}{1em}{}
 
 \DeclareMathSymbol{\ord}{\mathord}{AMSa}{"39}
 \newcommand{\cc}{\mathscr{C}}
 \newcommand{\cat}[2]{\mathbf{#1\ord #2}}
 \newcommand{\func}{\xrightarrow{\mathbf{1\ord Set}}}
 \newcommand{\morp}[2][1]{\xrightarrow{\mathbf{#1\ord #2}}}
+\newcommand{\mono}[2][1]{\xmapsto{\mathbf{#1\ord #2}}}
+\newcommand{\epi}[2][1]{\xtwoheadrightarrow{\mathbf{#1\ord #2}}}
 \newcommand{\iso}[2][1]{\xlongequal{\mathbf{#1\ord #2}}}
 \newcommand{\corres}{\quad \Longrightarrow \quad}
+\newcommand{\col}[1]{(\, #1 \,)}
+\newcommand{\blk}[1]{(\, #1 \,)}
 
 \DeclareMathOperator{\oAut}{Aut}
 \DeclareMathOperator{\oIm}{Im}

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/nixos.org)  (format=lualatex 1980.1.1)  13 OCT 2023 02:54
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/nixos.org)  (format=lualatex 1980.1.1)  13 OCT 2023 05:33
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -622,12 +622,38 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip57
+)
+(/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
+exmfdist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
+
+(/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
+exmfdist/tex/latex/nextpage/nextpage.sty
+Package: nextpage 2009/09/03 v1.1a additional page commands
+)
+\beforeepigraphskip=\skip58
+\afterepigraphskip=\skip59
+\epigraphwidth=\skip60
+\epigraphrule=\skip61
+)
+(/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
+exmfdist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box54
+\beforetitleunit=\skip62
+\aftertitleunit=\skip63
+\ttl@plus=\dimen174
+\ttl@minus=\dimen175
+\ttl@toksa=\toks26
+\titlewidth=\dimen176
+\titlewidthlast=\dimen177
+\titlewidthfirst=\dimen178
 ))
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2023-01-16 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count288
-\l__pdf_internal_box=\box54
+\l__pdf_internal_box=\box55
 ) (./main.aux)
 \openout1 = main.aux
 
@@ -698,16 +724,16 @@ LaTeX Font Info:    ... okay on input line 6.
 exmfdist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count289
-\scratchdimen=\dimen174
-\scratchbox=\box55
+\scratchdimen=\dimen179
+\scratchbox=\box56
 \nofMPsegments=\count290
 \nofMParguments=\count291
-\everyMPshowfont=\toks26
+\everyMPshowfont=\toks27
 \MPscratchCnt=\count292
-\MPscratchDim=\dimen175
+\MPscratchDim=\dimen180
 \MPnumerator=\count293
 \makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks27
+\everyMPtoPDFconversion=\toks28
 )
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -730,19 +756,15 @@ Package hyperref Info: Link coloring OFF on input line 6.
 
 {/nix/store/q071lii7zvqc6qwi0chi2j0zfzbmx3qb-texlive-combined-full-2022-final/sh
 are/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./sections/introduction.tex) [2] (./sections/conventions.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
-
- []
-
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+(./sections/introduction.tex
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
 .
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
 .
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
@@ -750,44 +772,60 @@ exmfdist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-5.
+2.
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-5.
+2.
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 5.
+(Font)              <10> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 5.
+(Font)              <7> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+(Font)              <5> on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 5.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
 
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+) [2] (./sections/conventions.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 5.
+
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -799,25 +837,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 9.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 9.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
@@ -827,22 +858,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 
-Overfull \hbox (43.08743pt too wide) detected at line 79
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+
+Overfull \hbox (43.08743pt too wide) detected at line 83
 []
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
@@ -859,19 +895,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
 ) [8] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 780DADCF535F31313E25E6891426A724;1054.
+(rerunfilecheck)             Checksum: 3C98AC0CC65CAEDC0772119FC526994C;1625.
 )
 
 Here is how much of LuaTeX's memory you used:
- 12859 strings out of 478290
+ 13302 strings out of 478290
  100000,1977958 words of node,token memory allocated
- 543 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 13 attribute, 57 glue_spec
+ 573 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 13 attribute, 63 glue_spec
 , 8 attribute_list, 1 write nodes
-   avail lists: 2:1473,3:155,4:13,5:486,6:36,7:4723,8:43,9:1084,10:7,11:274
- 32418 multiletter control sequences out of 65536+600000
- 67 fonts using 4752359 bytes
- 87i,18n,85p,539b,356s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 2:1713,3:188,4:13,5:519,6:39,7:4738,8:45,9:1272,10:10,11:257
+ 32823 multiletter control sequences out of 65536+600000
+ 85 fonts using 6023127 bytes
+ 87i,18n,85p,539b,390s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-te
 xmfdist/fonts/enc/dvips/lm/lm-rm.enc}</nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcb
 k-texlive-lm-2.005/fonts/opentype/public/lm/lmroman10-bold.otf>{/nix/store/wrdw5
@@ -884,32 +920,34 @@ xmfdist/fonts/enc/dvips/old-arrows/oasy.enc}{/nix/store/wrdw58bhndk588h2qhf6m1yq
 dcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/enc/dvips/lm/lm-mathsy
 .enc}</nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentyp
 e/public/lm/lmroman8-regular.otf></nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-te
-xlive-lm-2.005/fonts/opentype/public/lm/lmroman10-regular.otf></nix/store/mzdfld
-bi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype/public/lm/lmroman12-i
-talic.otf></nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/op
-entype/public/lm/lmroman12-regular.otf></nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlql
-cbk-texlive-lm-2.005/fonts/opentype/public/lm/lmroman12-bold.otf></nix/store/wrd
-w58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/t
-ype1/public/lm/lmbx10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-c
-ombined-full-2022-final-texmfdist/fonts/type1/public/lm/lmbx6.pfb></nix/store/wr
-dw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/
-type1/public/lm/lmbx8.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-c
-ombined-full-2022-final-texmfdist/fonts/type1/public/lm/lmmi10.pfb></nix/store/w
-rdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts
-/type1/public/lm/lmmi6.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-
-combined-full-2022-final-texmfdist/fonts/type1/public/lm/lmmi8.pfb></nix/store/w
-rdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts
-/type1/public/lm/lmr10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-
-combined-full-2022-final-texmfdist/fonts/type1/public/lm/lmsy10.pfb></nix/store/
-wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/font
-s/type1/public/amsfonts/symbols/msam10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqd
-cx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/old-arrows
-/oasy10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2
-022-final-texmfdist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on main.pdf (8 pages, 158593 bytes).
+xlive-lm-2.005/fonts/opentype/public/lm/lmroman9-italic.otf></nix/store/mzdfldbi
+0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype/public/lm/lmroman10-reg
+ular.otf></nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/ope
+ntype/public/lm/lmroman12-italic.otf></nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcb
+k-texlive-lm-2.005/fonts/opentype/public/lm/lmroman12-regular.otf></nix/store/mz
+dfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype/public/lm/lmroman
+12-bold.otf></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2
+022-final-texmfdist/fonts/type1/public/lm/lmbx10.pfb></nix/store/wrdw58bhndk588h
+2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/
+lm/lmbx6.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-
+2022-final-texmfdist/fonts/type1/public/lm/lmbx8.pfb></nix/store/wrdw58bhndk588h
+2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/
+lm/lmmi10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full
+-2022-final-texmfdist/fonts/type1/public/lm/lmmi6.pfb></nix/store/wrdw58bhndk588
+h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public
+/lm/lmmi8.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full
+-2022-final-texmfdist/fonts/type1/public/lm/lmr10.pfb></nix/store/wrdw58bhndk588
+h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public
+/lm/lmsy10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-ful
+l-2022-final-texmfdist/fonts/type1/public/amsfonts/symbols/msam10.pfb></nix/stor
+e/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fo
+nts/type1/public/old-arrows/oasy10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q
+02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/rsfs/rsfs10.pf
+b>
+Output written on main.pdf (8 pages, 168609 bytes).
 
-PDF statistics: 203 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 131072)
- 81 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 238 PDF objects out of 1000 (max. 8388607)
+ 188 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 131072)
+ 121 words of extra memory for PDF output out of 10000 (max. 100000000)
 

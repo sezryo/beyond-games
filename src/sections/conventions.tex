@@ -9,26 +9,30 @@ Personally I also gives the aesthetics of denotations some priority.\\
 I try to include all my notations conventions below.\footnote[1]{When certain notations later in my note are considered to be vague or not single-typed, I may leave a \(^{\ldots}\) to indicate the case, and may fix it later.} They are done recursively. The arguments enclosed by \([\,\cdot\,]\) are in "common conventions", for the convenience of mapping different conventions. \\
 
 \begin{align}
-  [\text{f is an object in n-category }\cc] \corres & f\in \cat{0}{\cc} \\
-  [\text{f is a morphism in n-category }\cc] \corres & f\in \cat{1}{\cc} \\
-  [\text{f is a k-morphism in n-category }\cc (k\leq n)] \corres & f\in \cat{k}{\cc} \\
-  [f\in \operatorname{Hom}_{\mathscr{C}}(A,B)] \corres & f\in (\, A \morp{\cc} B\,) \\
-  [f: A\to B,\, {A, B}\in \cat{0}{Set}] \corres & f\in (\, A \func B\,) 
+  [\text{f is an object in n-category }\cc] &\corres f\in \cat{0}{\cc} \\
+  [\text{f is a morphism in n-category }\cc] &\corres f\in \cat{1}{\cc} \\
+  [\text{f is a k-morphism in n-category }\cc (k\leq n)] &\corres f\in \cat{k}{\cc} \\
+  [f\in \operatorname{Hom}_{\cc}(A,B)] &\corres f\in \col{A \morp{\cc} B} \\
+  [f: A\to B,\, {A, B}\in \cat{0}{Set}] &\corres f\in \col{A \func B} \\
+  [\text{G is homomorphic to H as groups}] &\corres G\morp{Grp} H \\
+                                            &\corres \col{G\morp{Grp} H} \neq \emptyset \\
+  [\text{f is a monomorphism as } f\in \operatorname{Hom}_{\cc}(A,B)] &\corres f\in \col{G\mono{Grp} H} \\
+  [\text{f is a epimorphism as } f\in \operatorname{Hom}_{\cc}(A,B)] &\corres f\in \col{G\epi{Grp} H}
 \end{align}
 
-These are to say, I only recognise morphisms to be legal elements in a category, in case of unnecessary divisions upon Ob(C) and Hom(C). \\
+These are to say, I only recognise morphisms to be legal elements in a category, in case of unnecessary divisions upon Ob(C) and Hom(C). More information upon monomorphisms and epimorphisms shall be found in the next chapter.\\
 
 \begin{align}
-  [\text{G and H are isomorphic in groups}] \corres & G\iso{Grp} H \\
-  [\text{G and H are the same group}] \corres & G\iso[0]{Grp} H \\
-                                                    & G = H
+  [\text{G and H are isomorphic in groups}] &\corres G\iso{Grp} H \\
+  [\text{G and H are the same group}] &\corres G\iso[0]{Grp} H \\
+                                            &\corres G = H
 \end{align} 
 
 The equality signs shall read \href{https://ncatlab.org/nlab/show/equivalence}{equivalence}. I am not serious on (7), as in most cases I only use (8), with assumptions working in ZF(C). \\
 
 \begin{align}
-  f\in (A\func B) \quad \Longrightarrow \quad & f^{\star}\in (\mathcal{P}(A) \func \mathcal{P}(B)) \\
-                                                                           & f^{\star}(S)\,=\, \{x\in B \,|\, (\exists y\in S)(f(y)=x) \}
+  f\in \col{A\func B} &\corres f^{\star}\in \col{\mathcal{P}(A) \func \mathcal{P}(B)} \\
+                      &\corres f^{\star}(S)\,=\, \{x\in B \,|\, (\exists y\in S)(f(y)=x) \}
 \end{align} \\
 
 \subsection{Assumptions}
