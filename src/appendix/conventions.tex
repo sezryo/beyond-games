@@ -1,0 +1,51 @@
+\subsection{Denotations}
+
+Generally I avoid any "bad conventions" that I consider the mathematician use for their narcissistic ego and simple laziness, assuming everyone else suppose them to be quick and convenient, whereas actually they only render vagueness and confusion. Technically, conventions that do not raise confusions, like polymorphisms, are not "bad conventions", and I personally use them a lot. But for the very idea of imposing my (also narcissistic) ideology, I avoid them actively.\\
+
+Lots of mathematicians also love using \(:\) in demonstrating the "type" of a morphism, especially in \(\cat{1}{Set}\), while they even don't use type theory related foundations in their works, but rather the conventional set theory. This note is primarily worked in ZF, and actively notes once uses AoC. Thus I avoid using vague notation of \(:\). \\
+
+Personally I also gives the aesthetics of denotations some priority.\\
+
+I try to include all my notations conventions below.\footnote[1]{When certain notations later in my note are considered to be vague or not single-typed, I may leave a \(^{\ldots}\) to indicate the case, and may fix it later.} They are done recursively. The arguments enclosed by \([\,\cdot\,]\) are in "common conventions", for the convenience of mapping different conventions. \\
+
+\begin{align}
+  [\text{f is an object in n-category }\cc] &\corres f\in \cat{0}{\cc} \\
+  [\text{f is a morphism in n-category }\cc] &\corres f\in \cat{1}{\cc} \\
+  [\text{f is a k-morphism in n-category }\cc (k\leq n)] &\corres f\in \cat{k}{\cc} \\
+  [f\in \operatorname{Hom}_{\cc}(A,B)] &\corres f\in \col{A \morp{\cc} B} \\
+  [f: A\to B,\, {A, B}\in \cat{0}{Set}] &\corres f\in \col{A \func B} \\
+  [\text{G is homomorphic to H as groups}] &\corres G\morp{Grp} H \\
+                                            &\corres \col{G\morp{Grp} H} \neq \emptyset \\
+  [\text{f is a monomorphism as } f\in \operatorname{Hom}_{\cc}(A,B)] &\corres f\in \col{G\mono{Grp} H} \\
+  [\text{f is a epimorphism as } f\in \operatorname{Hom}_{\cc}(A,B)] &\corres f\in \col{G\epi{Grp} H}
+\end{align}
+
+These are to say, I only recognise morphisms to be legal elements in a category, in case of unnecessary divisions upon Ob(C) and Hom(C). More information upon monomorphisms and epimorphisms shall be found in the section 1.1.\\
+
+\begin{align}
+  [\text{G and H are isomorphic in groups}] &\corres G\iso{Grp} H \\
+  [\text{G and H are the same group}] &\corres G\iso[0]{Grp} H \\
+                                            &\corres G = H
+\end{align} 
+
+The equality signs shall read \href{https://ncatlab.org/nlab/show/equivalence}{equivalence}. I am not serious on (12), as in most cases I only use (13), with assumptions working in ZF(C). \\
+
+\begin{align}
+  f\in \col{A\func B} &\corres f^{\star}\in \col{\pset(A) \func \pset(B)} \\
+                      &\corres f^{\star}(S)\,=\, \{x\in B \,|\, (\exists y\in S)(f(y)=x) \}
+\end{align} \\
+
+\subsection{Assumptions}
+
+I hate people assuming too much. \\
+
+Again, in this note I mainly work on ZF, optionally with AoC. Thus some claims are natural to be made:
+\begin{itemize}
+  \item All categories are \textbf{strict} categories.
+  \item A
+\end{itemize}
+
+
+\subsection{Trivialness}
+
+All mathematics are trivial, up to some extent.

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/nixos.org)  (format=lualatex 1980.1.1)  13 OCT 2023 05:39
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/nixos.org)  (format=lualatex 1980.1.1)  14 OCT 2023 04:56
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -187,8 +187,8 @@ Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language22). Reported on input line 108.
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
-exmfdist/tex/generic/hyph-utf8/loadhyph/loadhyph-en-gb.tex ASCII Hyphenation pa
-tterns for British English
+exmfdist/tex/generic/hyph-utf8/loadhyph/loadhyph-en-gb.tex
+ASCII Hyphenation patterns for British English
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/generic/hyph-utf8/patterns/tex/hyph-en-gb.tex)))))
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
@@ -201,6 +201,7 @@ exmfdist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
+
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
@@ -268,6 +269,7 @@ Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 exmfdist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip50
+
 For additional information on amsmath, use the `?' option.
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
@@ -351,6 +353,19 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
+exmfdist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks30
+)
+(/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/bbold/bbold.sty
 Package: bbold 1994/04/06 Bbold symbol package
 LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 42.
@@ -402,12 +417,12 @@ Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count274
 \calc@Adimen=\dimen160
 \calc@Bdimen=\dimen161
-\calc@Askip=\skip53
-\calc@Bskip=\skip54
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count275
-\calc@Cskip=\skip55
+\calc@Cskip=\skip58
 )
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/mathtools/mhsetup.sty
@@ -415,7 +430,7 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count276
 \l_MT_multwidth_dim=\dimen162
-\origjot=\skip56
+\origjot=\skip59
 \l_MT_shortvdotswithinadjustabove_dim=\dimen163
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen164
 \l_MT_above_intertext_sep=\dimen165
@@ -476,7 +491,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks25
+\pdftexcmds@toks=\toks31
 )
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/kvsetkeys/kvsetkeys.sty
@@ -619,7 +634,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip57
+\Hy@SectionHShift=\skip60
 )
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/epigraph/epigraph.sty
@@ -629,28 +644,31 @@ Package: epigraph 2020/01/02 v1.5e typesetting epigraphs
 exmfdist/tex/latex/nextpage/nextpage.sty
 Package: nextpage 2009/09/03 v1.1a additional page commands
 )
-\beforeepigraphskip=\skip58
-\afterepigraphskip=\skip59
-\epigraphwidth=\skip60
-\epigraphrule=\skip61
+\beforeepigraphskip=\skip61
+\afterepigraphskip=\skip62
+\epigraphwidth=\skip63
+\epigraphrule=\skip64
 )
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box54
-\beforetitleunit=\skip62
-\aftertitleunit=\skip63
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
 \ttl@plus=\dimen174
 \ttl@minus=\dimen175
-\ttl@toksa=\toks26
+\ttl@toksa=\toks32
 \titlewidth=\dimen176
 \titlewidthlast=\dimen177
 \titlewidthfirst=\dimen178
-))
+)
+\c@theorem=\count288
+\c@corollary=\count289
+)
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2023-01-16 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count288
+\l__color_backend_stack_int=\count290
 \l__pdf_internal_box=\box55
 ) (./main.aux)
 \openout1 = main.aux
@@ -682,6 +700,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
@@ -720,17 +739,17 @@ LaTeX Font Info:    ... okay on input line 6.
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count289
+\scratchcounter=\count291
 \scratchdimen=\dimen179
 \scratchbox=\box56
-\nofMPsegments=\count290
-\nofMParguments=\count291
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count292
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count294
 \MPscratchDim=\dimen180
-\MPnumerator=\count293
-\makeMPintoPDFobject=\count294
-\everyMPtoPDFconversion=\toks28
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks34
 )
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -744,22 +763,23 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 6.
-(./main.out) (./main.out)
+ (./main.out) (./main.out)
 \@outlinefile=\write3
 
 \openout3 = main.out
+
 [1
 
 {/nix/store/q071lii7zvqc6qwi0chi2j0zfzbmx3qb-texlive-combined-full-2022-final/sh
-are/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./sections/introduction.tex
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+are/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
 .
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
 .
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
@@ -767,59 +787,70 @@ exmfdist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-2.
+3.
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-2.
+3.
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 2.
+(Font)              <10.95> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 2.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 2.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+(Font)              <6> on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 2.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
 
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+))
+\tf@toc=\write4
+
+\openout4 = main.toc
+ [2] (./sections/introduction.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [2] (./sections/conventions.tex
+) [3] (./sections/category_i.tex) [4] (./sections/linear_algebra.tex) [5]
+(./sections/measure.tex) [6] (./sections/uncategorised.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 5.
+) [7] (./appendix/conventions.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
@@ -842,7 +873,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[3]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
@@ -857,28 +888,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
-
-Overfull \hbox (43.08743pt too wide) detected at line 83
-[]
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-) [5] (./sections/prerequisites.tex) [6] (./sections/measure.tex) [7] (./sectio
-ns/uncategorised.tex
+) [9] (./appendix/index.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -888,61 +898,84 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [8] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3C98AC0CC65CAEDC0772119FC526994C;1625.
+
+Overfull \hbox (47.9537pt too wide) detected at line 36
+[]
+ []
+
+[10])
+Underfull \hbox (badness 10000) in paragraph at lines 36--54
+
+ []
+
+[11] (./main.aux)
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 85D7E76D3A27E305BC48D6E45CB0731B;2039
+(rerunfilecheck)             After:  A5222C71E3E6A3C950E0235E41986026;2044.
 )
 
 Here is how much of LuaTeX's memory you used:
- 13302 strings out of 478290
+ 13448 strings out of 478290
  100000,1977958 words of node,token memory allocated
- 573 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 13 attribute, 63 glue_spec
-, 8 attribute_list, 1 write nodes
-   avail lists: 2:1713,3:188,4:13,5:519,6:39,7:4738,8:45,9:1272,10:10,11:257
- 32823 multiletter control sequences out of 65536+600000
- 85 fonts using 6023127 bytes
+ 602 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 21 attribute, 64 glue_spec
+, 12 attribute_list, 1 write nodes
+   avail lists: 2:1239,3:200,4:13,5:518,6:59,7:4688,8:45,9:1164,10:10,11:302
+ 32924 multiletter control sequences out of 65536+600000
+ 84 fonts using 5989455 bytes
  87i,18n,85p,539b,390s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-te
-xmfdist/fonts/enc/dvips/lm/lm-rm.enc}</nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcb
-k-texlive-lm-2.005/fonts/opentype/public/lm/lmroman10-bold.otf>{/nix/store/wrdw5
-8bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/enc
-/dvips/lm/lm-mathit.enc}</nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-
-2.005/fonts/opentype/public/lm/lmroman9-regular.otf></nix/store/mzdfldbi0g8dp4gd
-j2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype/public/lm/lmroman6-regular.otf>
-{/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-te
-xmfdist/fonts/enc/dvips/old-arrows/oasy.enc}{/nix/store/wrdw58bhndk588h2qhf6m1yq
-dcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/enc/dvips/lm/lm-mathsy
-.enc}</nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentyp
-e/public/lm/lmroman8-regular.otf></nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-te
-xlive-lm-2.005/fonts/opentype/public/lm/lmroman9-italic.otf></nix/store/mzdfldbi
-0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype/public/lm/lmroman10-reg
-ular.otf></nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/ope
-ntype/public/lm/lmroman12-italic.otf></nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcb
-k-texlive-lm-2.005/fonts/opentype/public/lm/lmroman12-regular.otf></nix/store/mz
-dfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype/public/lm/lmroman
-12-bold.otf></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2
-022-final-texmfdist/fonts/type1/public/lm/lmbx10.pfb></nix/store/wrdw58bhndk588h
-2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/
-lm/lmbx6.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-
-2022-final-texmfdist/fonts/type1/public/lm/lmbx8.pfb></nix/store/wrdw58bhndk588h
-2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/
-lm/lmmi10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full
--2022-final-texmfdist/fonts/type1/public/lm/lmmi6.pfb></nix/store/wrdw58bhndk588
-h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public
-/lm/lmmi8.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full
--2022-final-texmfdist/fonts/type1/public/lm/lmr10.pfb></nix/store/wrdw58bhndk588
-h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public
-/lm/lmsy10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-ful
-l-2022-final-texmfdist/fonts/type1/public/amsfonts/symbols/msam10.pfb></nix/stor
-e/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fo
-nts/type1/public/old-arrows/oasy10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q
-02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/rsfs/rsfs10.pf
-b>
-Output written on main.pdf (8 pages, 168609 bytes).
 
-PDF statistics: 238 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 131072)
- 121 words of extra memory for PDF output out of 10000 (max. 100000000)
+warning  (pdf backend): unreferenced destination with name 'subsection.A.4'
+</nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype/pub
+lic/lm/lmroman9-regular.otf></nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive
+-lm-2.005/fonts/opentype/public/lm/lmroman6-regular.otf></nix/store/mzdfldbi0g8d
+p4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype/public/lm/lmroman8-regular.
+otf></nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype
+/public/lm/lmroman10-italic.otf>{/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-tex
+live-combined-full-2022-final-texmfdist/fonts/enc/dvips/lm/lm-mathit.enc}{/nix/s
+tore/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist
+/fonts/enc/dvips/lm/lm-rm.enc}{/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texli
+ve-combined-full-2022-final-texmfdist/fonts/enc/dvips/lm/lm-mathex.enc}{/nix/sto
+re/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/f
+onts/enc/dvips/old-arrows/oasy.enc}{/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-
+texlive-combined-full-2022-final-texmfdist/fonts/enc/dvips/lm/lm-mathsy.enc}</ni
+x/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype/public/
+lm/lmroman9-italic.otf></nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2
+.005/fonts/opentype/public/lm/lmroman10-bold.otf></nix/store/mzdfldbi0g8dp4gdj2g
+zg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype/public/lm/lmroman10-regular.otf></
+nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype/publi
+c/lm/lmroman12-italic.otf></nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-l
+m-2.005/fonts/opentype/public/lm/lmroman12-regular.otf></nix/store/mzdfldbi0g8dp
+4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype/public/lm/lmroman12-bold.otf
+></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
+exmfdist/fonts/type1/public/lm/lmbx10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdc
+x5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/lm/lmbx6.pf
+b></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-
+texmfdist/fonts/type1/public/lm/lmbx8.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdc
+x5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/lm/lmex10.p
+fb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final
+-texmfdist/fonts/type1/public/lm/lmmi10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yq
+dcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/lm/lmmi6.
+pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-fina
+l-texmfdist/fonts/type1/public/lm/lmmi8.pfb></nix/store/wrdw58bhndk588h2qhf6m1yq
+dcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/lm/lmr10.
+pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-fina
+l-texmfdist/fonts/type1/public/lm/lmr6.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqd
+cx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/lm/lmsy10.
+pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-fina
+l-texmfdist/fonts/type1/public/amsfonts/symbols/msam10.pfb></nix/store/wrdw58bhn
+dk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/p
+ublic/old-arrows/oasy10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive
+-combined-full-2022-final-texmfdist/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on main.pdf (11 pages, 195765 bytes).
+
+PDF statistics: 308 PDF objects out of 1000 (max. 8388607)
+ 249 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 131072)
+ 153 words of extra memory for PDF output out of 10000 (max. 100000000)
 

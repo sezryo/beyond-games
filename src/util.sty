@@ -11,6 +11,7 @@
 \usepackage{dsfont}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{amsthm}
 \usepackage{bbold}
 \usepackage{lmodern}
 \usepackage{mathtools}
@@ -29,6 +30,15 @@
 \titleformat{\subsection}
   {\normalfont\LARGE\bfseries}
   {\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\large\bfseries}
+  {\thesubsubsection}{1em}{}
+  
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
 
 \DeclareMathSymbol{\ord}{\mathord}{AMSa}{"39}
 \newcommand{\cc}{\mathscr{C}}
@@ -38,9 +48,10 @@
 \newcommand{\mono}[2][1]{\xmapsto{\mathbf{#1\ord #2}}}
 \newcommand{\epi}[2][1]{\xtwoheadrightarrow{\mathbf{#1\ord #2}}}
 \newcommand{\iso}[2][1]{\xlongequal{\mathbf{#1\ord #2}}}
-\newcommand{\corres}{\quad \Longrightarrow \quad}
+\newcommand{\corres}{\quad \Longleftrightarrow \quad}\newcommand{\impl}{\quad \Longrightarrow \quad}
 \newcommand{\col}[1]{(\, #1 \,)}
 \newcommand{\blk}[1]{(\, #1 \,)}
+\newcommand{\pset}{\mathcal{P}}
 
 \DeclareMathOperator{\oAut}{Aut}
 \DeclareMathOperator{\oIm}{Im}
