@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/nixos.org)  (format=lualatex 1980.1.1)  14 OCT 2023 04:56
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/nixos.org)  (format=lualatex 1980.1.1)  14 OCT 2023 12:30
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -41,22 +41,23 @@ Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programm
 ing layer <2023-02-22>
 Inserting `tracingstacklevels' in `input_level_string'.
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
-exmfdist/tex/latex/base/article.cls
-Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+exmfdist/tex/latex/base/book.cls
+Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
-exmfdist/tex/latex/base/size11.clo
-File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+exmfdist/tex/latex/base/bk11.clo
+File: bk11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from /home/sezrienne/.texlive2022/t
 exmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \c@part=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen139
@@ -164,7 +165,7 @@ Package babel Info: Non-standard hyphenation setup on input line 118.
 \babelcatcodetablenum=\catcodetable12
 \bbl@pattcodes=\catcodetable13
 )
-\babel@savecnt=\count191
+\babel@savecnt=\count192
 \U@D=\dimen140
 \l@unhyphenated=\language88
 
@@ -223,9 +224,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 exmfdist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count192
-\Gm@cntv=\count193
-\c@Gm@tempcnt=\count194
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
 \Gm@bindingoffset=\dimen141
 \Gm@wd@mp=\dimen142
 \Gm@odd@mp=\dimen143
@@ -291,14 +292,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 exmfdist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count195
+\inf@bad=\count196
 LaTeX Info: Redefining \frac on input line 236.
-\uproot@=\count196
-\leftroot@=\count197
+\uproot@=\count197
+\leftroot@=\count198
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count198
-\DOTSCASE@=\count199
+\classnum@=\count199
+\DOTSCASE@=\count266
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -311,20 +312,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen153
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count266
+\macc@depth=\count267
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count267
+\c@MaxMatrixCols=\count268
 \dotsspace@=\muskip16
-\c@parentequation=\count268
-\dspbrk@lvl=\count269
+\c@parentequation=\count269
+\dspbrk@lvl=\count270
 \tag@help=\toks21
-\row@=\count270
-\column@=\count271
-\maxfields@=\count272
+\row@=\count271
+\column@=\count272
+\maxfields@=\count273
 \andhelp@=\toks22
 \eqnshift@=\dimen154
 \alignsep@=\dimen155
@@ -413,22 +414,22 @@ Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count273
-\calc@Bcount=\count274
+\calc@Acount=\count274
+\calc@Bcount=\count275
 \calc@Adimen=\dimen160
 \calc@Bdimen=\dimen161
 \calc@Askip=\skip56
 \calc@Bskip=\skip57
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count275
+\calc@Ccount=\count276
 \calc@Cskip=\skip58
 )
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count276
+\g_MT_multlinerow_int=\count277
 \l_MT_multwidth_dim=\dimen162
 \origjot=\skip59
 \l_MT_shortvdotswithinadjustabove_dim=\dimen163
@@ -533,11 +534,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 exmfdist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count277
+\c@section@level=\count278
 )
 \@linkdim=\dimen170
-\Hy@linkcounter=\count278
-\Hy@pagecounter=\count279
+\Hy@linkcounter=\count279
+\Hy@pagecounter=\count280
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/hyperref/pd1enc.def
@@ -551,7 +552,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 exmfdist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count280
+\Hy@SavedSpaceFactor=\count281
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/hyperref/puenc.def
@@ -564,7 +565,7 @@ Package hyperref Info: Plain pages OFF on input line 4192.
 Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count281
+\c@Hy@tempcnt=\count282
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/url/url.sty
@@ -583,7 +584,7 @@ exmfdist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count282
+\Fld@menulength=\count283
 \Field@Width=\dimen172
 \Fld@charsize=\dimen173
 Package hyperref Info: Hyper figures OFF on input line 6042.
@@ -599,9 +600,9 @@ exmfdist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count283
-\c@Item=\count284
-\c@Hfootnote=\count285
+\Hy@abspage=\count284
+\c@Item=\count285
+\c@Hfootnote=\count286
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
@@ -620,8 +621,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count286
-\c@bookmark@seq@number=\count287
+\Fld@listcount=\count287
+\c@bookmark@seq@number=\count288
 
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/rerunfilecheck/rerunfilecheck.sty
@@ -662,13 +663,13 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \titlewidthlast=\dimen177
 \titlewidthfirst=\dimen178
 )
-\c@theorem=\count288
-\c@corollary=\count289
+\c@theorem=\count289
+\c@corollary=\count290
 )
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/latex/l3backend/l3backend-luatex.def
 File: l3backend-luatex.def 2023-01-16 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count290
+\l__color_backend_stack_int=\count291
 \l__pdf_internal_box=\box55
 ) (./main.aux)
 \openout1 = main.aux
@@ -708,30 +709,30 @@ LaTeX Font Info:    ... okay on input line 6.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
 * v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=418.25368pt
 * \textheight=591.5302pt
-* \oddsidemargin=17.3571pt
-* \evensidemargin=17.3571pt
-* \topmargin=-7.86334pt
+* \oddsidemargin=-0.56833pt
+* \evensidemargin=35.28255pt
+* \topmargin=-2.73714pt
 * \headheight=12.0pt
-* \headsep=25.0pt
+* \headsep=19.8738pt
 * \topskip=11.0pt
-* \footskip=30.0pt
-* \marginparwidth=50.0pt
-* \marginparsep=10.0pt
+* \footskip=27.46295pt
+* \marginparwidth=106.0pt
+* \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -739,16 +740,16 @@ LaTeX Font Info:    ... okay on input line 6.
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
 exmfdist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count291
+\scratchcounter=\count292
 \scratchdimen=\dimen179
 \scratchbox=\box56
-\nofMPsegments=\count292
-\nofMParguments=\count293
+\nofMPsegments=\count293
+\nofMParguments=\count294
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count294
+\MPscratchCnt=\count295
 \MPscratchDim=\dimen180
-\MPnumerator=\count295
-\makeMPintoPDFobject=\count296
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
 \everyMPtoPDFconversion=\toks34
 )
 (/nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-t
@@ -770,8 +771,11 @@ Package hyperref Info: Link coloring OFF on input line 6.
 
 [1
 
+
 {/nix/store/q071lii7zvqc6qwi0chi2j0zfzbmx3qb-texlive-combined-full-2022-final/sh
-are/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.toc
+are/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+] (./main.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
 .
 
@@ -828,7 +832,11 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 \tf@toc=\write4
 
 \openout4 = main.toc
- [2] (./sections/introduction.tex
+ [3] [4
+
+]
+Chapter 0.
+(./chapters/preface.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -840,13 +848,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [3] (./sections/category_i.tex) [4] (./sections/linear_algebra.tex) [5]
-(./sections/measure.tex) [6] (./sections/uncategorised.tex
+) [1
+
+] [2
+
+]
+Chapter 1.
+(./chapters/category_i.tex) [3] [4
+
+]
+Chapter 2.
+(./chapters/linear_algebra.tex) [5] [6
+
+]
+Chapter 3.
+(./chapters/measure.tex) [7] [8
+
+]
+Chapter 4.
+(./chapters/uncategorised.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-) [7] (./appendix/conventions.tex
+) [9] [10
+
+]
+Appendix A.
+(./appendix/conventions.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -869,11 +903,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
@@ -888,7 +925,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-) [9] (./appendix/index.tex
+) [12] [13] [14
+
+]
+Appendix B.
+(./appendix/index.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -903,34 +949,26 @@ Overfull \hbox (47.9537pt too wide) detected at line 36
 []
  []
 
-[10])
-Underfull \hbox (badness 10000) in paragraph at lines 36--54
+[15])
+Underfull \hbox (badness 10000) in paragraph at lines 36--57
 
  []
 
-[11] (./main.aux)
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 85D7E76D3A27E305BC48D6E45CB0731B;2039
-(rerunfilecheck)             After:  A5222C71E3E6A3C950E0235E41986026;2044.
+[16] (./main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: DE36A96DE6415AD56811840FC43A3A1D;2143.
 )
 
 Here is how much of LuaTeX's memory you used:
- 13448 strings out of 478290
+ 13483 strings out of 478290
  100000,1977958 words of node,token memory allocated
  602 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 3 glue, 4 kern, 1 glyph, 21 attribute, 64 glue_spec
 , 12 attribute_list, 1 write nodes
-   avail lists: 2:1239,3:200,4:13,5:518,6:59,7:4688,8:45,9:1164,10:10,11:302
- 32924 multiletter control sequences out of 65536+600000
- 84 fonts using 5989455 bytes
+   avail lists: 2:1288,3:224,4:13,5:505,6:62,7:3874,8:46,9:1056,10:10,11:269
+ 32949 multiletter control sequences out of 65536+600000
+ 87 fonts using 6384519 bytes
  87i,18n,85p,539b,390s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-warning  (pdf backend): unreferenced destination with name 'subsection.A.4'
 </nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive-lm-2.005/fonts/opentype/pub
 lic/lm/lmroman9-regular.otf></nix/store/mzdfldbi0g8dp4gdj2gzg8bmfzlqlcbk-texlive
 -lm-2.005/fonts/opentype/public/lm/lmroman6-regular.otf></nix/store/mzdfldbi0g8d
@@ -972,10 +1010,10 @@ l-texmfdist/fonts/type1/public/amsfonts/symbols/msam10.pfb></nix/store/wrdw58bhn
 dk588h2qhf6m1yqdcx5q02i-texlive-combined-full-2022-final-texmfdist/fonts/type1/p
 ublic/old-arrows/oasy10.pfb></nix/store/wrdw58bhndk588h2qhf6m1yqdcx5q02i-texlive
 -combined-full-2022-final-texmfdist/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on main.pdf (11 pages, 195765 bytes).
+Output written on main.pdf (20 pages, 197804 bytes).
 
-PDF statistics: 308 PDF objects out of 1000 (max. 8388607)
- 249 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 131072)
- 153 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 349 PDF objects out of 1000 (max. 8388607)
+ 281 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 131072)
+ 161 words of extra memory for PDF output out of 10000 (max. 100000000)
 

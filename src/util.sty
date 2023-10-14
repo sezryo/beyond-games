@@ -24,17 +24,17 @@
 
 \setlength{\parindent}{0pt}
 
-\titleformat{\section}
+\titleformat{\chapter}
   {\normalfont\Huge\bfseries}
-  {\thesection}{20pt}{\Huge}
-\titleformat{\subsection}
+  {\thechapter}{20pt}{\Huge}
+\titleformat{\section}
   {\normalfont\LARGE\bfseries}
-  {\thesubsection}{1em}{}
-\titleformat{\subsubsection}
+  {\thesection}{1em}{}
+\titleformat{\subsection}
   {\normalfont\large\bfseries}
-  {\thesubsubsection}{1em}{}
+  {\thesubsection}{1em}{}
   
-\newtheorem{theorem}{Theorem}[section]
+\newtheorem{theorem}{Theorem}[chapter]
 \newtheorem{corollary}{Corollary}[theorem]
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{definition}[theorem]{Definition}

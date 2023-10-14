@@ -1,17 +1,18 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[11pt,a4paper]{book}
 
 \usepackage{./util}
-\setcounter{section}{-1}
+\setcounter{chapter}{-1}
 
 \begin{document}
+\frontmatter
 \pagestyle{plain}
 
 \begin{center}                  
-\vspace{5cm} 
+\vspace{10cm} 
 
-{\LARGE \textbf{Mathematics Done Not Even Wrong}}\\
+{\huge \textbf{Beyond Games}}\\
 \vspace{5cm}
-{\large Gently Weird Notes Took In Cambridge}\\
+{\large Gently weird notes took in Cambridge}\\
 \vspace{5cm}
 {\Large \textit{Yvette Meng}}\\
 \vspace{1cm}
@@ -24,32 +25,34 @@
 \tableofcontents
 \newpage
 
-\section{Introduction}
-\input{sections/introduction.tex}
+\mainmatter
+
+\chapter{Preface}
+\input{chapters/preface.tex}
 \newpage
 
-\section{Category I}
-\input{sections/category_i.tex}
+\chapter{Category I}
+\input{chapters/category_i.tex}
 \newpage
 
-\section{Linear Algebra}
-\input{sections/linear_algebra.tex}
+\chapter{Linear Algebra}
+\input{chapters/linear_algebra.tex}
 \newpage
 
-\section{Measure}
-\input{sections/measure.tex}
+\chapter{Measure}
+\input{chapters/measure.tex}
 \newpage
 
-\section{Uncategorised}
-\input{sections/uncategorised.tex}
+\chapter{Uncategorised}
+\input{chapters/uncategorised.tex}
 \newpage
 
 \appendix
-\section{Conventions}
+\chapter{Conventions}
 \input{appendix/conventions.tex}
 \newpage
 
-\section{Index}
+\chapter{Index}
 \input{appendix/index.tex}
 
 \end{document}

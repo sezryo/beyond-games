@@ -1,20 +1,21 @@
 \babel@toc {UKenglish}{}\relax 
-\contentsline {section}{\numberline {0}Introduction}{3}{section.0}%
-\contentsline {subsection}{\numberline {0.1}Ontology}{3}{subsection.0.1}%
-\contentsline {subsection}{\numberline {0.2}Cambridge}{3}{subsection.0.2}%
-\contentsline {subsection}{\numberline {0.3}Language}{3}{subsection.0.3}%
-\contentsline {section}{\numberline {1}Category I}{4}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Basic Concepts}{4}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Linear Algebra}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Finite vector spaces}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Dual Spaces}{5}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Measure}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Concepts}{6}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Uncategorised}{7}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Miscellaneous}{7}{subsection.4.1}%
-\contentsline {section}{\numberline {A}Conventions}{8}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Denotations}{8}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Assumptions}{9}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Trivialness}{9}{subsection.A.3}%
-\contentsline {section}{\numberline {B}Index}{10}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}Apparatus}{10}{subsection.B.1}%
+\contentsline {chapter}{\numberline {0}Preface}{1}{chapter.0}%
+\contentsline {section}{\numberline {0.1}Ontology}{1}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Cambridge}{1}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Language}{1}{section.0.3}%
+\contentsline {chapter}{\numberline {1}Category I}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Basic Concepts}{3}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Linear Algebra}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Finite vector spaces}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Category NVect}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Dual Spaces}{5}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Measure}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Concepts}{7}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Uncategorised}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Miscellaneous}{9}{section.4.1}%
+\contentsline {chapter}{\numberline {A}Conventions}{11}{appendix.A}%
+\contentsline {subsection}{\numberline {A.0.1}Denotations}{11}{subsection.A.0.1}%
+\contentsline {subsection}{\numberline {A.0.2}Assumptions}{12}{subsection.A.0.2}%
+\contentsline {subsection}{\numberline {A.0.3}Trivialness}{13}{subsection.A.0.3}%
+\contentsline {chapter}{\numberline {B}Index}{15}{appendix.B}%
+\contentsline {subsection}{\numberline {B.0.1}Apparatus}{15}{subsection.B.0.1}%
